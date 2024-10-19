@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center-align text in the body */
+        }
+        h1 {
+            margin: 20px 0; /* Add some margin to the heading */
+        }
+        img {
+            max-width: 100%; /* Make the image responsive */
+            height: auto;    /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <img src="{% static 'restaurant/logo.png' %}" alt="Little Lemon Logo">
+    <h1>Welcome To Little Lemon Restaurant</h1> 
+</body>
+</html>
